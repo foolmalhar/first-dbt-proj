@@ -5,5 +5,5 @@ nyc_park:
       path: "../data/nyc_park.db"
     prod:
       type: duckdb
-      path: '../data/prod_nyc_park.db'
+      path: './data/prod_nyc_park.db'
   target: dev
