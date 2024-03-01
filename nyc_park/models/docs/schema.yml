@@ -1,0 +1,12 @@
+models:
+  - name: bronze_park_vcodes
+    description: Raw data representing the violation codes and their fees.
+    columns:
+      - name: violation_code 
+        description: '{{doc("violation_code")}}'  
+      - name: definition
+        description: Description for a violation of a particular code.
+      - name: manhattan_96th_st_below
+        description: The fee in USD$ for a violation on or below Manhattan 96th Street.
+      - name: all_other_areas
+        description: The fee in USD$ for a violation not on or below Manhattan 96th Street.
